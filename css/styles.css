@@ -144,6 +144,8 @@ ul {
 
 .footer .container {
     display: flex;
+
+    align-items: baseline;
 }
 
 .footer .logo,
@@ -190,11 +192,9 @@ ul {
 
 .join-us {
     margin-left: 70px;
-    padding-top: 9px;
 }
 
-.footer .title {
-    font-size: 14px;
+.footer .join {
     font-weight: 700;
     line-height: 1.7;
     color: var(--white-color);
@@ -240,15 +240,9 @@ ul {
 }
 
 .hero {
-    text-align: center;
-}
-
-.overlay {
     height: 600px;
     max-width: 1600px;
 
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -256,6 +250,8 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    text-align: center;
 }
 
 .hero-title {
